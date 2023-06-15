@@ -43,12 +43,8 @@
   </p>
 </p>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/nusserstudios/tailbliss/main/images/tailbliss-lighthouse-11-03-22.png" alt="Tailbliss Google Lighthouse Score" style="margin: 25px auto; max-width: 830px" width="100%" height="" />
-</p>
-
 **Install to VS Code with:**  
-`git clone git@github.com:nusserstudios/tailbliss your-name`
+`git clone git@github.com:nusserstudios/hugo-twcss-alpine.git your-name`
 
 ##### Install with NPM 
 `npm install`
