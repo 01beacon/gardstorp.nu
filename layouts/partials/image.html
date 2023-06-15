@@ -1,0 +1,7 @@
+{{- $image := resources.Get . -}}
+{{- with $image -}}
+{{- with .Resize "1000x" -}}
+<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"
+    class="absolute inset-0 object-cover w-full h-full" alt="" loading="lazy" />
+{{- end -}}
+{{- end -}}
