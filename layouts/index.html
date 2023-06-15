@@ -64,6 +64,13 @@
   {{ end }}
   </div>
 
+  <!-- Section 3 -->
+  <div id="section3" class="section">
+  {{ with .Site.GetPage "/sections/section3" }}
+    {{ partial "sections/section3.html" . }}
+  {{ end }}
+  </div>
+
   <!-- OM HUSET | EXTERIÖR -->
   <div class="relative shadow-inner bg-biscotti-500 dark:bg-biscotti-900/10">
     <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">

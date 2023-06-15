@@ -13,6 +13,7 @@ darkmode_js = ["assets/js/darkmode.js"]
 
 enableInlineShortcodes = true
 
+netlify = false
 [params]
 author = "Gårdstorp"
 authorimage = "../assets/images/global/author.webp"

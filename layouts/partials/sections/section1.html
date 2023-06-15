@@ -1,5 +1,6 @@
 {{ with . }}
-<div class="relative bg-cover bg-center shadow-inner dark:bg-biscotti-900/10" style="background-color: {{ .Params.background_color }};">
+<div class="relative bg-cover bg-center shadow-inner dark:bg-biscotti-900/10"
+  style="background-color: {{ .Params.background_color }};">
   <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-center lg:gap-24 lg:px-8">
     <!-- Image Container -->
     <div class="relative sm:py-8 lg:py-0">
@@ -44,7 +45,7 @@
         <p class="text-lg">{{ .Content }}</p>
       </div>
     </div>
-    <!-- /.Content -->
+    <!-- /.Content Container -->
     {{ end }}
   </div>
 </div>
