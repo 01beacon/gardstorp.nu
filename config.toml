@@ -16,8 +16,7 @@ enableInlineShortcodes = true
 [params]
 author = "Gårdstorp"
 authorimage = "../assets/images/global/author.webp"
-github = "https://github.com/nusserstudios"
-facebook = "https://facebook.com/nusserstudios"
+github = "https://github.com/01beacon"
 og_image = "/images/tailbliss-cover.png"
 sitename = "Välkommen till Gårdstorp, Öland"
 description = "Hyr detta vackra hus"
@@ -38,25 +37,25 @@ tag = "Tags"
 
 [privacy]
 [privacy.disqus]
-disable = false
+disable = true
 [privacy.googleAnalytics]
 anonymizeIP = true
 disable = false
 respectDoNotTrack = false
 useSessionStorage = false
 [privacy.instagram]
-disable = false
+disable = true
 simple = false
 [privacy.twitter]
-disable = false
+disable = true
 enableDNT = false
 simple = false
 [privacy.vimeo]
-disable = false
+disable = true
 enableDNT = false
 simple = false
 [privacy.youtube]
-disable = false
+disable = true
 privacyEnhanced = true
 
 [module]
